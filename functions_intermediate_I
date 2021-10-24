@@ -33,7 +33,7 @@ print(z)
 def iterateDictionary(some_list):
     for dic in some_list:
         for key in dic:
-            print(key, " - ", dic[key])
+            print(key, "-", dic[key])
 
 students = [
     {'first_name':  'Michael', 'last_name': 'Jordan'},
