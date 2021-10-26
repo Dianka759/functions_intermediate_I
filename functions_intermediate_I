@@ -68,6 +68,7 @@ students = [
     {'first_name': 'Mark', 'last_name': 'Guillen'},
     {'first_name': 'KB', 'last_name': 'Tonel'}
 ]
+
 iterateDictionary2('first_name', students)
 iterateDictionary2('last_name', students)
 
@@ -84,8 +85,8 @@ def printInfo(some_dict):
     print("")
 
     print(len(some_dict['instructors']), "INSTRUCTORS")
-    for location in some_dict['instructors']:
-        print(location)
+    for instructor in some_dict['instructors']:
+        print(instructor)
 
 dojo = {
     'locations': ['San Jose', 'Seattle', 'Dallas', 'Chicago', 'Tulsa', 'DC', 'Burbank'],
